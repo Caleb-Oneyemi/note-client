@@ -4,8 +4,7 @@
   "description": "a social notes app",
   "main": "dist/App.js",
   "scripts": {
-    "start": "parcel build public/index.html --public-url ./",
-    "dev": "parcel public/index.html",
+    "start": "parcel public/index.html --open",
     "build": "tsc"
   },
   "dependencies": {
